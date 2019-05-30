@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Studio clock</title>
+	<meta name="description" content="It's a studio-style clock. You use it to tell the time, possibly in a studio.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/main.js" async></script>
+
+	<meta name="theme-color" content="#333333">
+</head>
+
+<body>
+	<div class="container">
+		<div class="clock">
+			<div class="pips">
+				<div class="minutes">
+					<div class="pos pos-0"><div class="pip"></div></div>
+					<div class="pos pos-5"><div class="pip"></div></div>
+					<div class="pos pos-10"><div class="pip"></div></div>
+					<div class="pos pos-15"><div class="pip"></div></div>
+					<div class="pos pos-20"><div class="pip"></div></div>
+					<div class="pos pos-25"><div class="pip"></div></div>
+					<div class="pos pos-30"><div class="pip"></div></div>
+					<div class="pos pos-35"><div class="pip"></div></div>
+					<div class="pos pos-40"><div class="pip"></div></div>
+					<div class="pos pos-45"><div class="pip"></div></div>
+					<div class="pos pos-50"><div class="pip"></div></div>
+					<div class="pos pos-55"><div class="pip"></div></div>
+				</div>
+				<div class="seconds">
+					<div class="pos ticking pos-0"><div class="pip"></div></div>
+					<div class="pos ticking pos-1"><div class="pip"></div></div>
+					<div class="pos ticking pos-2"><div class="pip"></div></div>
+					<div class="pos ticking pos-3"><div class="pip"></div></div>
+					<div class="pos ticking pos-4"><div class="pip"></div></div>
+					<div class="pos ticking pos-5"><div class="pip"></div></div>
+					<div class="pos ticking pos-6"><div class="pip"></div></div>
+					<div class="pos ticking pos-7"><div class="pip"></div></div>
+					<div class="pos ticking pos-8"><div class="pip"></div></div>
+					<div class="pos ticking pos-9"><div class="pip"></div></div>
+					<div class="pos ticking pos-10"><div class="pip"></div></div>
+					<div class="pos ticking pos-11"><div class="pip"></div></div>
+					<div class="pos ticking pos-12"><div class="pip"></div></div>
+					<div class="pos ticking pos-13"><div class="pip"></div></div>
+					<div class="pos ticking pos-14"><div class="pip"></div></div>
+					<div class="pos ticking pos-15"><div class="pip"></div></div>
+					<div class="pos ticking pos-16"><div class="pip"></div></div>
+					<div class="pos ticking pos-17"><div class="pip"></div></div>
+					<div class="pos ticking pos-18"><div class="pip"></div></div>
+					<div class="pos ticking pos-19"><div class="pip"></div></div>
+					<div class="pos ticking pos-20"><div class="pip"></div></div>
+					<div class="pos ticking pos-21"><div class="pip"></div></div>
+					<div class="pos ticking pos-22"><div class="pip"></div></div>
+					<div class="pos ticking pos-23"><div class="pip"></div></div>
+					<div class="pos ticking pos-24"><div class="pip"></div></div>
+					<div class="pos ticking pos-25"><div class="pip"></div></div>
+					<div class="pos ticking pos-26"><div class="pip"></div></div>
+					<div class="pos ticking pos-27"><div class="pip"></div></div>
+					<div class="pos ticking pos-28"><div class="pip"></div></div>
+					<div class="pos ticking pos-29"><div class="pip"></div></div>
+					<div class="pos ticking pos-30"><div class="pip"></div></div>
+					<div class="pos ticking pos-31"><div class="pip"></div></div>
+					<div class="pos ticking pos-32"><div class="pip"></div></div>
+					<div class="pos ticking pos-33"><div class="pip"></div></div>
+					<div class="pos ticking pos-34"><div class="pip"></div></div>
+					<div class="pos ticking pos-35"><div class="pip"></div></div>
+					<div class="pos ticking pos-36"><div class="pip"></div></div>
+					<div class="pos ticking pos-37"><div class="pip"></div></div>
+					<div class="pos ticking pos-38"><div class="pip"></div></div>
+					<div class="pos ticking pos-39"><div class="pip"></div></div>
+					<div class="pos ticking pos-40"><div class="pip"></div></div>
+					<div class="pos ticking pos-41"><div class="pip"></div></div>
+					<div class="pos ticking pos-42"><div class="pip"></div></div>
+					<div class="pos ticking pos-43"><div class="pip"></div></div>
+					<div class="pos ticking pos-44"><div class="pip"></div></div>
+					<div class="pos ticking pos-45"><div class="pip"></div></div>
+					<div class="pos ticking pos-46"><div class="pip"></div></div>
+					<div class="pos ticking pos-47"><div class="pip"></div></div>
+					<div class="pos ticking pos-48"><div class="pip"></div></div>
+					<div class="pos ticking pos-49"><div class="pip"></div></div>
+					<div class="pos ticking pos-50"><div class="pip"></div></div>
+					<div class="pos ticking pos-51"><div class="pip"></div></div>
+					<div class="pos ticking pos-52"><div class="pip"></div></div>
+					<div class="pos ticking pos-53"><div class="pip"></div></div>
+					<div class="pos ticking pos-54"><div class="pip"></div></div>
+					<div class="pos ticking pos-55"><div class="pip"></div></div>
+					<div class="pos ticking pos-56"><div class="pip"></div></div>
+					<div class="pos ticking pos-57"><div class="pip"></div></div>
+					<div class="pos ticking pos-58"><div class="pip"></div></div>
+					<div class="pos ticking pos-59"><div class="pip"></div></div>
+				</div>
+			</div>
+			<div class="digital">
+				<div class="chunk"></div>
+				<div class="chunk shrink">
+					<div class="time">
+						<div class="hours">00</div>
+						<div class="minutes">00</div>
+					</div>
+				</div>
+				<div class="chunk top">
+					<div class="seconds">00</div>
+				</div>
+			</div>
+		</div>
+		<div id="open-about" class="open-about">?</div>
+		<div id="about" class="about">
+			<div class="info">
+				<p class="byline">
+					<strong>Studio clock</strong>
+					<br>
+					by Dyn (deains)
+				</p>
+				<p>For issues, improvements, or suggestions, check out the GitHub repository.</p>
+			</div>
+			<div class="shields">
+				<a href="https://github.com/deains/studio-clock" target="_blank">
+					<img src="https://img.shields.io/badge/github-deains/studio--clock-informational.svg" alt="github">
+				</a>
+				<a href="https://github.com/deains/studio-clock/blob/master/LICENSE" target="_blank">
+					<img src="https://img.shields.io/github/license/deains/studio-clock.svg" alt="license">
+				</a>
+				<a href="https://github.com/deains/studio-clock" target="_blank">
+					<img src="https://img.shields.io/github/last-commit/deains/studio-clock/gh-pages.svg?label=last%20update" alt="last update">
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
