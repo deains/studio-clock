@@ -1,0 +1,21 @@
+{
+	"short_name": "Studio clock",
+	"name": "Studio clock",
+	"description": "It's a studio-style clock. You use it to tell the time, possibly in a studio.",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#333333",
+	"theme_color": "#333333",
+	"icons": [
+		{
+			"src": "icon.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "icon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
